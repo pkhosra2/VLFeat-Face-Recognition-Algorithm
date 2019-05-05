@@ -5,11 +5,21 @@ This purpose of this algorithm is to use the VLfeat library to distinguish betwe
 
 The VLFeat library is a popular computer vision library specializing in image understanding and local features extraction and matching. Algorithms include Fisher Vector, VLAD, SIFT, MSER, k-means, hierarchical k-means, agglomerative information bottleneck, SLIC superpixels, quick shift superpixels, large scale SVM training, and many others.
 
+![Capture](https://user-images.githubusercontent.com/39222728/57195365-8f476180-6f1f-11e9-9202-72ce0b49d109.JPG)
+
 ## Datasets
 
-For this project we will be working twith two datasets:
+For this project we will be working with two datasets:
 
 1. image_notefaces 
 2. cropped_training_images_faces
 
-Both of which we can find in our repository above 
+Both of which we can find in our repository above.
+
+Firstly, we need to geenrate a bit of code to convert all of the images that are note faces, into grayscale and crop them to a 36x36 pixel size.
+
+Below we can see the snippet of code as an example of how to do that
+
+![Capture](https://user-images.githubusercontent.com/39222728/57195392-d6cded80-6f1f-11e9-9747-44ea22c7ff93.JPG)
+
+
