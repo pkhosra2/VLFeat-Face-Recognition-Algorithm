@@ -33,3 +33,9 @@ Next, we need to split our training set into 2 catagories: a training set and a 
 Note how we relabel the image_not faces in the folder previously created into training and validation images. Our final folder containing all of the images that are not faces will then look like this:
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57195835-177c3580-6f25-11e9-8b93-7212856e558f.JPG)
+
+Once we've established our training and validation sets, we can being training our dataset and algorithm using the built-in SVM machine learning algorithm in the VLFeat library we are using.
+
+Firstly, we look at the HOG features for the images that are faces. The code snippet below shows us how can do that
+
+![Capture](https://user-images.githubusercontent.com/39222728/57195922-b30da600-6f25-11e9-88e8-953eedf5a7e4.JPG)
