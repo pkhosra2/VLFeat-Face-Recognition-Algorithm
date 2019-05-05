@@ -51,3 +51,16 @@ To get all the postive image HOG features we use the snippet of code below:
 An example of how this algorithm matches features with postive images is shown below:
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57195922-b30da600-6f25-11e9-88e8-953eedf5a7e4.JPG)
+
+Next, we need to get all of the negative images HOG features, both training and validation images. Below we see how to do that
+
+![Capture](https://user-images.githubusercontent.com/39222728/57196247-08978200-6f29-11e9-8a43-9d0cbbede7e0.JPG)
+
+The HOG features of each training image that isn't a face is shown below:
+
+![Capture](https://user-images.githubusercontent.com/39222728/57196314-d89cae80-6f29-11e9-9080-b03a90d1ffc6.JPG)
+
+The HOG features of each validation image that isn't a face is shown below:
+
+![Capture](https://user-images.githubusercontent.com/39222728/57196338-16013c00-6f2a-11e9-8136-7b6da48a23ac.JPG)
+
