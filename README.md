@@ -36,6 +36,15 @@ Note how we relabel the image_not faces in the folder previously created into tr
 
 Once we've established our training and validation sets, we can being training our dataset and algorithm using the built-in SVM machine learning algorithm in the VLFeat library we are using.
 
-Firstly, we look at the HOG features for the images that are faces. The code snippet below shows us how can do that
+Firstly, we look at the HOG features for the images that are faces. To do that we need to create two directories for the images, the images that are a postive match, and the images that are a negative match. Below we can see how to do that
+
+![Capture](https://user-images.githubusercontent.com/39222728/57195969-113a8900-6f26-11e9-8743-3696ed5208b2.JPG)
+
+Note that we can change the variable cellSize to change how our algoirithm classifies an image, this paramter can be useful when it comes to improving the accuracy of our aglorithm
+
+To get all the postive image HOG features we use the snippet of code below:
+
+![Capture](https://user-images.githubusercontent.com/39222728/57196003-78583d80-6f26-11e9-8ef5-46f48c167486.JPG)
+
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57195922-b30da600-6f25-11e9-88e8-953eedf5a7e4.JPG)
