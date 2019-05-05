@@ -29,3 +29,7 @@ After running this code, we create a directory or folder with all of the cropped
 Next, we need to split our training set into 2 catagories: a training set and a validation set. Our split will be 80% training and 20% validation. Below we we the section of code that lets us do this.
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57195804-a9377300-6f24-11e9-99c3-2aa3e88a0459.JPG)
+
+Note how we relabel the image_not faces in the folder previously created into training and validation images. Our final folder containing all of the images that are not faces will then look like this:
+
+![Capture](https://user-images.githubusercontent.com/39222728/57195835-177c3580-6f25-11e9-8b93-7212856e558f.JPG)
