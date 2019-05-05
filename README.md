@@ -64,11 +64,22 @@ The HOG features of each validation image that isn't a face is shown below:
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57196338-16013c00-6f2a-11e9-8136-7b6da48a23ac.JPG)
 
-## Training SVM On Dataset
+## Training SVM On Training Dataset
 
 Once we have all of the HOG features for all of the postive and negative image classification, we cam being running our support vector machine algorithm to predict our classification accracy. Below we see the lines of code that let use do that
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57196378-67113000-6f2a-11e9-852e-a90cf2edc9a5.JPG)
 
-Note that the value of lmabda will affect the accuracy of our prediction. Ideally we would like to thave the lowest possible value of lambda to get the highest accuracy, but there is a trade-off of accuracy. Setting lambda at the 0.1 value seems like the best for now.
+Note that the value of lambda will affect the accuracy of our prediction. Ideally we would like to thave the lowest possible value of lambda to get the highest accuracy, but there is a trade-off of accuracy. Setting lambda at the 0.1 value seems like the best for now.
 
+## Testing SVM On Validation Dataset
+
+Now that we have effectively trained our dataset, it is time to test it on our negative images that we grouped as the validation images. For this testing segment we will keep the value of lambda at 0.1 as well. Below we see the code that get us our validation results.
+
+![Capture](https://user-images.githubusercontent.com/39222728/57196479-38e02000-6f2b-11e9-8d75-addba22dbaae.JPG)
+
+## Results & Accuracy
+
+From the training and validation data above, we get the follow accuracies when classifiying images as faces or not faces:
+
+![Capture](https://user-images.githubusercontent.com/39222728/57196502-6cbb4580-6f2b-11e9-81cb-c5302515554a.JPG)
