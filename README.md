@@ -16,6 +16,8 @@ For this project we will be working with two datasets:
 
 Both of which we can find in our repository above.
 
+## Converting Images Into Comparable Format 
+
 Firstly, we need to geenrate a bit of code to convert all of the images that are note faces, into grayscale and crop them to a 36x36 pixel size.
 
 Below we can see the snippet of code as an example of how to do that
@@ -46,5 +48,6 @@ To get all the postive image HOG features we use the snippet of code below:
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57196003-78583d80-6f26-11e9-8ef5-46f48c167486.JPG)
 
+An example of how this algorithm matches features with postive images is shown below:
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57195922-b30da600-6f25-11e9-88e8-953eedf5a7e4.JPG)
