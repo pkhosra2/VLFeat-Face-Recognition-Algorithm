@@ -22,4 +22,10 @@ Below we can see the snippet of code as an example of how to do that
 
 ![Capture](https://user-images.githubusercontent.com/39222728/57195392-d6cded80-6f1f-11e9-9747-44ea22c7ff93.JPG)
 
+After running this code, we create a directory or folder with all of the cropped and grayscale version of the images that are not faces
 
+![Capture](https://user-images.githubusercontent.com/39222728/57195752-33330c00-6f24-11e9-8b0a-3c03274a5d5f.JPG)
+
+Next, we need to split our training set into 2 catagories: a training set and a validation set. Our split will be 80% training and 20% validation. Below we we the section of code that lets us do this.
+
+![Capture](https://user-images.githubusercontent.com/39222728/57195804-a9377300-6f24-11e9-99c3-2aa3e88a0459.JPG)
